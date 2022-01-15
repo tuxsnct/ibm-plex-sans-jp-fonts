@@ -27,8 +27,6 @@ Thanks for trying the IBM Plex typeface! We hope you like it.
 %prep
 %setup -q -n TrueType
 
-%build
-
 %install
 install -m 0755 -d %{buildroot}%{_fontdir}
 install -m 0644 -p IBM-Plex-Sans-JP/unhinted/*.ttf %{buildroot}%{_fontdir}
