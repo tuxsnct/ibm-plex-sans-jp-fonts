@@ -12,7 +12,7 @@ Source0: https://github.com/IBM/plex/releases/download/v6.0.0/TrueType.zip
 Source1: %{fontname}-fontconfig.conf
 
 BuildArch:     noarch
-BuildRequires: fontpackages-devel
+BuildRequires: fontpackages-devel, unzip
 Requires:      fontpackages-filesystem
 
 %description
